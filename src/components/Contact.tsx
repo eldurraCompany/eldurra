@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {t('contact.phone')}
               </h3>
-              <p className="text-white/90">+965 2226 9915</p>
+              <p className="text-white/90">+965 2226 9916</p>
             </div>
             
             <div className="text-center">
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {t('contact.email')}
               </h3>
-              <p className="text-white/90">info@hamedawada-int.com</p>
+              <p className="text-white/90">durraworld.co@gmail.com</p>
             </div>
             
             <div className="text-center">

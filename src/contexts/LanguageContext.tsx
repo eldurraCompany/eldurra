@@ -20,19 +20,19 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero Section
-    'hero.title': 'WORLD DURRA CO',
-    'hero.subtitle': 'For Management and Leasing Owned or Leased Real Estate • Authorized Agent: MÖVENPICK',
+    'hero.title': 'شركة درة العالم',
+    'hero.subtitle': 'شركة متخصصة في إدارة وتأجير العقارات والاستثمار العقاري والضيافة',
     'hero.cta': 'Contact Us',
     
     // Features
-    'features.security.title': 'Premium Management',
-    'features.security.description': 'Professional management under Mövenpick brand standards',
-    'features.quality.title': 'International Standards',
-    'features.quality.description': 'Operated by Accor Group with global excellence',
-    'features.service.title': 'Luxury Experience',
-    'features.service.description': 'Five-star hotel and modern shopping mall',
-    'features.location.title': 'Prime Location',
-    'features.location.description': 'Strategic location in the heart of Jabriya',
+    'features.security.title': 'إدارة عقارية متميزة',
+    'features.security.description': 'خدمات إدارة عقارية احترافية وشاملة',
+    'features.quality.title': 'استثمار عقاري',
+    'features.quality.description': 'حلول استثمارية عقارية مبتكرة ومربحة',
+    'features.service.title': 'خدمات الضيافة',
+    'features.service.description': 'مشاريع فندقية وخدمات ضيافة متطورة',
+    'features.location.title': 'مواقع استراتيجية',
+    'features.location.description': 'عقارات في أفضل المواقع بالكويت',
     
     // Properties
 
@@ -42,17 +42,14 @@ const translations = {
 
 
 
-    'properties.title': 'PROJECT COMPONENTS',
+    'properties.title': 'مشاريعنا',
 
 
-    'properties.hotel.title': 'MÖVENPICK HOTEL',
-    'properties.hotel.description': 'Modern 5-star hotel with luxury suites & rooms, wellness center & gym, meeting & event halls, private parking spaces, variety swimming pools, men\'s and women\'s salon, and 4 luxurious penthouses each with a private pool.',
-    'properties.hotel.features.0': 'Luxury suites & rooms',
-    'properties.hotel.features.1': 'Wellness center & gym',
-    'properties.hotel.features.2': '4 luxurious penthouses with private pools',
-
-
-
+    'properties.hotel.title': 'فندق تحت الإنشاء - الجابرية',
+    'properties.hotel.description': 'مشروع فندقي متطور تحت الإنشاء في منطقة الجابرية، يتضمن غرف وأجنحة فاخرة، مركز صحي، قاعات مؤتمرات، مواقف سيارات، ومرافق ترفيهية متنوعة.',
+    'properties.hotel.features.0': 'غرف وأجنحة فاخرة',
+    'properties.hotel.features.1': 'مركز صحي وقاعات مؤتمرات',
+    'properties.hotel.features.2': 'مرافق ترفيهية ومواقف سيارات',
 
 
 
@@ -62,16 +59,19 @@ const translations = {
 
 
 
-    'properties.mall.title': 'HAMED AWADH INTERNATIONAL REAL ESTATE',
-    'properties.mall.description': 'Hamed Awadh International Real Estate owns a diverse portfolio of residential, commercial, and investment projects across strategic urban areas in Kuwait.',
-    'properties.mall.features.0': 'Residential complexes',
-    'properties.mall.features.1': 'Commercial developments',
-    'properties.mall.features.2': 'Investment properties',
-    'properties.portfolio.title': 'REAL ESTATE PORTFOLIO',
-    'properties.portfolio.description': 'Hamed Awadh International Real Estate owns a diverse portfolio of residential, commercial, and investment projects across strategic urban areas in Kuwait.',
-    'properties.portfolio.features.0': 'Residential complexes',
-    'properties.portfolio.features.1': 'Commercial developments',
-    'properties.portfolio.features.2': 'Investment properties',
+
+
+
+    'properties.mahboula.title': 'مجمع المهبولة السكني',
+    'properties.mahboula.description': 'مجمع سكني يتكون من 16 عمارة في منطقة المهبولة - قطعة 3، يوفر وحدات سكنية متنوعة بمواصفات عالية.',
+    'properties.mahboula.features.0': '16 عمارة سكنية',
+    'properties.mahboula.features.1': 'وحدات سكنية متنوعة',
+    'properties.mahboula.features.2': 'موقع متميز في المهبولة',
+    'properties.residential.title': 'مشاريع فلل سكنية',
+    'properties.residential.description': 'مجموعة من الفلل والمنازل السكنية المطورة والمُدارة، تتميز بالتصميم العصري والمواقع المتميزة.',
+    'properties.residential.features.0': 'فلل ومنازل سكنية',
+    'properties.residential.features.1': 'تصميم عصري ومواصفات عالية',
+    'properties.residential.features.2': 'إدارة وصيانة شاملة',
     'properties.jabriya.title': 'JABRIYA PROJECTS',
     'properties.jabriya.description': 'Mövenpick Hotel & Mall and Mahboula residential complex of 16 buildings in strategic locations.',
     'properties.jabriya.features.0': 'Mövenpick Hotel & Mall',
@@ -178,172 +178,55 @@ const translations = {
     
     // Footer
     'footer.description': 'WORLD DURRA CO - For Management and Leasing Owned or Leased Real Estate. Authorized Agent: MÖVENPICK.',
-    'footer.quickLinks': 'Quick Links',
-    'footer.contact': 'Contact Info',
-    'footer.rights': 'All rights reserved.',
-    'footer.agent': 'Authorized Agent',
-    'footer.company': 'Company',
+    'properties.previous.title': 'مشاريع سابقة',
+    'properties.previous.description': 'مشاريع تم إدارتها سابقاً من خلال السيد حامد عوض شخصياً قبل تأسيس شركة درة العالم، تشمل إدارة مول السلام ومجمع الحمراء والتعامل مع علامات تجارية مختلفة مثل لولو هايبر والبنك التجاري.',
+    'properties.previous.features.0': 'إدارة مول السلام (فترة محددة)',
+    'properties.previous.features.1': 'إدارة مجمع الحمراء (فترة محددة)',
+    'properties.previous.features.2': 'التعامل مع علامات تجارية مختلفة',
     'footer.services': 'Services',
-    
-    // WhatsApp
-    'whatsapp.message': 'Hello! I\'m interested in learning more about Mövenpick Hotel & Mall Al-Jabriya project.',
-    'whatsapp.label': 'Chat on WhatsApp'
-  },
-  ar: {
-    // Navigation
-    'nav.home': 'الرئيسية',
-    'nav.properties': 'المشاريع',
-    'nav.about': 'من نحن',
-    'nav.location': 'الموقع',
-    'nav.contact': 'اتصل بنا',
-    
-    // Hero Section
-    'hero.title': 'شركة الدرة العالمية',
-    'hero.subtitle': 'لإدارة وتأجير العقارات المملوكة أو المؤجرة • الوكيل المعتمد: موڤنبيك',
-    'hero.cta': 'تواصل معنا',
-    
-    // Features
-    'features.security.title': 'إدارة متميزة',
-    'features.security.description': 'إدارة احترافية وفق معايير علامة موڤنبيك',
-    'features.quality.title': 'معايير عالمية',
-    'features.quality.description': 'مُشغل من قبل مجموعة أكور بتميز عالمي',
-    'features.service.title': 'تجربة فاخرة',
-    'features.service.description': 'فندق خمس نجوم ومول تجاري عصري',
-    'features.location.title': 'موقع استراتيجي',
-    'features.location.description': 'موقع استراتيجي في قلب منطقة الجابرية',
-    
-    // Properties
-    'properties.title': 'مكونات المشروع',
-    'properties.hotel.title': 'فندق موڤنبيك',
-    'properties.hotel.description': 'فندق خمس نجوم بتصميم عصري مع أجنحة وغرف فاخرة، مركز صحي وناد رياضي، قاعات اجتماعات ومناسبات، مواقف سيارات، مسابح متنوعة، صالون رجالي ونسائي، و4 بنتهاوس فاخرة كل منها مزودة بمسبح خاص.',
-    'properties.hotel.features.0': 'أجنحة وغرف فاخرة',
-    'properties.hotel.features.1': 'مركز صحي وناد رياضي',
-    'properties.hotel.features.2': '4 بنتهاوس فاخرة مع مسابح خاصة',
-    'properties.mall.title': "شركة حامد عوض العقارية",
-    'properties.mall.description': 'تمتلك شركة حامد عوض إنترناشونال العقارية محفظة استثمارية واسعة من المشاريع السكنية والتجارية والاستثمارية في أهم المناطق الحيوية بالكويت.',
-    'properties.mall.features.0': 'مجمعات سكنية',
-    'properties.mall.features.1':  'تطوير تجاري',
-    'properties.mall.features.2':'عقارات استثمارية',
-    'properties.portfolio.title': 'المحفظة العقارية',
-    'properties.portfolio.description': 'تمتلك شركة حامد عوض إنترناشونال العقارية محفظة استثمارية واسعة من المشاريع السكنية والتجارية والاستثمارية في أهم المناطق الحيوية بالكويت.',
-    'properties.portfolio.features.0': 'مجمعات سكنية',
-    'properties.portfolio.features.1': 'تطوير تجاري',
-    'properties.portfolio.features.2': 'عقارات استثمارية',
-    'properties.jabriya.title': 'مشاريع الجابرية',
-    'properties.jabriya.description': 'فندق ومول موڤنبيك ومجمع المهبولة السكني المكون من 16 عمارة في مواقع استراتيجية.',
-    'properties.jabriya.features.0': 'فندق ومول موڤنبيك',
-    'properties.jabriya.features.1': 'المهبولة - قطعة 3: 16 عمارة',
-    'properties.jabriya.features.2': 'موقع متميز في الجابرية',
-    'properties.salmiya.title': 'تطوير السالمية',
-    'properties.salmiya.description': 'مجمعات متميزة متعددة تشمل مجمع لابلاج والحمراء والريان ومجمع السلام مول.',
-    'properties.salmiya.features.0': 'مجمع لابلاج',
-    'properties.salmiya.features.1': 'مجمع الحمراء والريان',
-    'properties.salmiya.features.2': 'مجمع السلام مول',
-    
-    // Additional Properties
-    'properties.residential.title': 'مجمع سكني متميز',
-    'properties.residential.description': 'أبراج سكنية حديثة مع مرافق فاخرة وموقع متميز في أرقى أحياء الكويت.',
-    'properties.residential.features.0': 'شقق فاخرة وبنتهاوس',
-    'properties.residential.features.1': 'مرافق ومنشآت متميزة',
-    'properties.residential.features.2': 'موقع استراتيجي وسهولة الوصول',
-    
-    'properties.luxury.title': 'مشروع تطوير فاخر',
-    'properties.luxury.description': 'تطوير سكني وتجاري راقي يتميز بالعمارة المعاصرة والمرافق عالمية المستوى.',
-    'properties.luxury.features.0': 'تصميم معماري معاصر',
-    'properties.luxury.features.1': 'مرافق عالمية المستوى',
-    'properties.luxury.features.2': 'موقع متميز وسهولة الوصول',
-    
-    'properties.btbuilding.title': 'مجمع البرج الأزرق',
-    'properties.btbuilding.description': 'برج أيقوني أزرق يوفر مساحات مكتبية متميزة ووحدات تجارية مع إطلالات خلابة على المدينة وبنية تحتية حديثة.',
-    'properties.btbuilding.features.0': 'مساحات مكتبية متميزة',
-    'properties.btbuilding.features.1': 'بنية تحتية حديثة',
-    'properties.btbuilding.features.2': 'إطلالات خلابة على المدينة',
-    
-    'properties.lolohyber.title': 'مجمع لولو هايبر ماركت',
-    'properties.lolohyber.description': 'مجمع تجاري وتسوق كبير يضم لولو هايبر ماركت، ويوفر تجارب تسوق وطعام متنوعة.',
-    'properties.lolohyber.features.0': 'لولو هايبر ماركت كمستأجر رئيسي',
-    'properties.lolohyber.features.1': 'خيارات تسوق وطعام متنوعة',
-    'properties.lolohyber.features.2': 'موقع عالي الحركة',
-    
-    'properties.lolohyber2.title': 'مركز لولو التجاري',
-    'properties.lolohyber2.description': 'تطوير تجاري موسع مع مساحات تجارية إضافية ومطاعم ومقدمي خدمات يكمل الهايبر ماركت الرئيسي.',
-    'properties.lolohyber2.features.0': 'مساحات تجارية موسعة',
-    'properties.lolohyber2.features.1': 'مناطق مطاعم وخدمات',
-    'properties.lolohyber2.features.2': 'وحدات تجارية مكملة',
-    
-    'properties.lolohyber3.title': 'تطوير لولو متعدد الاستخدامات',
-    'properties.lolohyber3.description': 'تطوير شامل متعدد الاستخدامات يجمع بين المكونات التجارية والمكتبية والسكنية في مجمع واحد متكامل.',
-    'properties.lolohyber3.features.0': 'تطوير متعدد الاستخدامات',
-    'properties.lolohyber3.features.1': 'مساحات تجارية ومكتبية متكاملة',
-    'properties.lolohyber3.features.2': 'مكونات سكنية',
-    
-    'properties.altijari.title': 'برج التجاري',
-    'properties.altijari.description': 'برج تجاري مرموق في منطقة الأعمال بالكويت، يوفر مساحات مكتبية متميزة ومرافق شركات.',
-    'properties.altijari.features.0': 'مساحات مكتبية متميزة',
-    'properties.altijari.features.1': 'موقع في منطقة الأعمال',
-    'properties.altijari.features.2': 'مرافق شركات',
-    
-    'properties.daralawad.title': 'مجمع دار العوض',
-    'properties.daralawad.description': 'مجمع سكني وتجاري أنيق يتميز بعناصر العمارة الكويتية التقليدية مع المرافق الحديثة.',
-    'properties.daralawad.features.0': 'عمارة كويتية تقليدية',
-    'properties.daralawad.features.1': 'مرافق حديثة',
-    'properties.daralawad.features.2': 'وحدات سكنية وتجارية',
-    
-    'properties.building1.title': 'تطوير برج متميز',
-    'properties.building1.description': 'تطوير برج حديث بتصميم متطور ومرافق متميزة في موقع رئيسي بالكويت.',
-    'properties.building1.features.0': 'تصميم متطور',
-    'properties.building1.features.1': 'مرافق متميزة',
-    'properties.building1.features.2': 'موقع رئيسي بالكويت',
-    
-    'properties.building2.title': 'مجمع تجاري حديث',
-    'properties.building2.description': 'مجمع تجاري معاصر مصمم للأعمال الحديثة مع مساحات مرنة وبنية تحتية متقدمة.',
-    'properties.building2.features.0': 'تصميم معاصر',
-    'properties.building2.features.1': 'مساحات أعمال مرنة',
-    'properties.building2.features.2': 'بنية تحتية متقدمة',
-    
-    'properties.building3.title': 'مركز أعمال متكامل',
-    'properties.building3.description': 'مركز أعمال شامل يوفر مساحات مكتبية ومرافق اجتماعات وخدمات دعم للمؤسسات النامية.',
-    'properties.building3.features.0': 'مساحات مكتبية شاملة',
-    'properties.building3.features.1': 'مرافق اجتماعات',
-    'properties.building3.features.2': 'خدمات دعم الأعمال',
+    'properties.office.title': 'المكتب الرئيسي',
+    'properties.office.description': 'المكتب الرئيسي لشركة درة العالم يقع في أبراج مزايا بالكويت.',
+    'properties.office.features.0': 'موقع متميز في أبراج مزايا',
+    'properties.office.features.1': 'مكتب حديث ومجهز',
+    'properties.office.features.2': 'سهولة الوصول والمواصلات',
     
     // About
-    'about.title': 'حول شركة الدرة العالمية',
-    'about.description': 'شركة رائدة متخصصة في إدارة وتأجير العقارات المملوكة أو المؤجرة. نعمل مع وكلاء معتمدين مثل موڤنبيك لضمان أعلى معايير إدارة وتأجير العقارات.',
-    'about.stats.experience': 'سنوات التميز',
-    'about.stats.projects': 'العقارات المُدارة',
+    'about.title': 'حول شركة درة العالم',
+    'about.description': 'شركة درة العالم هي شركة متخصصة في إدارة وتأجير العقارات والاستثمار العقاري وخدمات الضيافة. نقدم حلولاً شاملة ومتطورة في السوق العقاري الكويتي.',
+    'about.stats.experience': 'سنوات الخبرة',
+    'about.stats.projects': 'المشاريع المُدارة',
     'about.stats.locations': 'المواقع الاستراتيجية',
-    'about.hamed.title': 'شركة حامد عوض إنترناشونال العقارية',
-    'about.hamed.description': 'شركة رائدة في السوق العقاري الكويتي، تمتلك محفظة استثمارية واسعة من المشاريع السكنية والاستثمارية والتجارية في أهم المناطق الحيوية.',
+    'about.companies.title': 'الشركات التابعة',
+    'about.companies.description': 'مجموعة من الشركات المتخصصة تعمل تحت مظلة درة العالم لتقديم خدمات متكاملة.',
     
     // Location
-    'location.title': 'مواقعنا',
-    'location.description': 'تواجد استراتيجي في أهم مناطق الكويت مع محفظة عقارية متنوعة.',
+    'location.title': 'موقعنا',
+    'location.description': 'المكتب الرئيسي لشركة درة العالم في موقع استراتيجي بالكويت.',
     'location.headquarters': 'المكتب الرئيسي',
     'location.projects': 'مناطق المشاريع',
-    'location.projectsText': 'الجابرية، السالمية، حولي، الرميثية، وأكثر',
+    'location.projectsText': 'الجابرية، المهبولة، وأكثر',
     'location.coordinates': 'الإحداثيات: 29.3743° N, 47.9894° E',
     'location.openInMaps': 'فتح في خرائط جوجل',
     
     // Contact
-    'contact.title': 'تواصل مع شركة الدرة العالمية',
-    'contact.description': 'تواصل مع فريقنا المهني لجميع احتياجاتك الفندقية والعقارية.',
+    'contact.title': 'تواصل مع شركة درة العالم',
+    'contact.description': 'تواصل مع فريقنا المتخصص لجميع احتياجاتك العقارية والاستثمارية.',
     'contact.phone': 'الهاتف',
     'contact.email': 'البريد الإلكتروني',
     'contact.address': 'العنوان',
     'contact.cta': 'تواصل معنا',
     
     // Footer
-    'footer.description': 'شركة الدرة العالمية - لإدارة وتأجير العقارات المملوكة أو المؤجرة. الوكيل المعتمد: موڤنبيك.',
+    'footer.description': 'شركة درة العالم - متخصصة في إدارة وتأجير العقارات والاستثمار العقاري وخدمات الضيافة.',
     'footer.quickLinks': 'روابط سريعة',
     'footer.contact': 'معلومات الاتصال',
     'footer.rights': 'جميع الحقوق محفوظة.',
-    'footer.agent': 'الوكيل المعتمد',
+    'footer.companies': 'الشركات',
     'footer.company': 'الشركة',
     'footer.services': 'الخدمات',
     
     // WhatsApp
-    'whatsapp.message': 'مرحباً! أنا مهتم بمعرفة المزيد عن خدمات شركة الدرة العالمية العقارية.',
+    'whatsapp.message': 'مرحباً! أنا مهتم بمعرفة المزيد عن خدمات شركة درة العالم.',
     'whatsapp.label': 'محادثة على واتساب'
   }
 };

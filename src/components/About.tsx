@@ -33,13 +33,13 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          {/* About Hamed Awadh International */}
+          {/* About Companies */}
           <div className="bg-slate-700 rounded-lg p-8">
             <h3 className="text-2xl md:text-3xl font-bold text-amber-400 mb-6">
-              {t('about.hamed.title')}
+              {t('about.companies.title')}
             </h3>
             <p className="text-gray-300 text-lg leading-relaxed">
-              {t('about.hamed.description')}
+              {t('about.companies.description')}
             </p>
           </div>
         </div>

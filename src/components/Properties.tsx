@@ -23,16 +23,6 @@ const Properties: React.FC = () => {
   const [selectedImage, setSelectedImage] = React.useState<string | null>(null);
 
   const properties = [
-     {
-      image: jabriyaImg,
-      title: t('properties.jabriya.title'),
-      description: t('properties.jabriya.description'),
-      features: [
-        t('properties.jabriya.features.0'),
-        t('properties.jabriya.features.1'),
-        t('properties.jabriya.features.2')
-      ]
-    },
     {
       image: one,
       title: t('properties.hotel.title'),
@@ -44,37 +34,17 @@ const Properties: React.FC = () => {
       ]
     },
     {
-      image: two,
-      title: t('properties.mall.title'),
-      description: t('properties.mall.description'),
+      image: jabriyaImg,
+      title: t('properties.mahboula.title'),
+      description: t('properties.mahboula.description'),
       features: [
-        t('properties.mall.features.0'),
-        t('properties.mall.features.1'),
-        t('properties.mall.features.2')
+        t('properties.mahboula.features.0'),
+        t('properties.mahboula.features.1'),
+        t('properties.mahboula.features.2')
       ]
     },
     {
-      image: three,
-      title: t('properties.portfolio.title'),
-      description: t('properties.portfolio.description'),
-      features: [
-        t('properties.portfolio.features.0'),
-        t('properties.portfolio.features.1'),
-        t('properties.portfolio.features.2')
-      ]
-    },
-    {
-      image: four,
-      title: t('properties.salmiya.title'),
-      description: t('properties.salmiya.description'),
-      features: [
-        t('properties.salmiya.features.0'),
-        t('properties.salmiya.features.1'),
-        t('properties.salmiya.features.2')
-      ]
-    },
-    {
-      image: five,
+      image: daralawad,
       title: t('properties.residential.title'),
       description: t('properties.residential.description'),
       features: [
@@ -84,103 +54,23 @@ const Properties: React.FC = () => {
       ]
     },
     {
-      image: sex,
-      title: t('properties.luxury.title'),
-      description: t('properties.luxury.description'),
-      features: [
-        t('properties.luxury.features.0'),
-        t('properties.luxury.features.1'),
-        t('properties.luxury.features.2')
-      ]
-    },
-    {
-      image: btbuilding,
-      title: t('properties.btbuilding.title'),
-      description: t('properties.btbuilding.description'),
-      features: [
-        t('properties.btbuilding.features.0'),
-        t('properties.btbuilding.features.1'),
-        t('properties.btbuilding.features.2')
-      ]
-    },
-    {
-      image: lolohyber,
-      title: t('properties.lolohyber.title'),
-      description: t('properties.lolohyber.description'),
-      features: [
-        t('properties.lolohyber.features.0'),
-        t('properties.lolohyber.features.1'),
-        t('properties.lolohyber.features.2')
-      ]
-    },
-    {
-      image: lolohyber2,
-      title: t('properties.lolohyber2.title'),
-      description: t('properties.lolohyber2.description'),
-      features: [
-        t('properties.lolohyber2.features.0'),
-        t('properties.lolohyber2.features.1'),
-        t('properties.lolohyber2.features.2')
-      ]
-    },
-    {
-      image: lolohyber3,
-      title: t('properties.lolohyber3.title'),
-      description: t('properties.lolohyber3.description'),
-      features: [
-        t('properties.lolohyber3.features.0'),
-        t('properties.lolohyber3.features.1'),
-        t('properties.lolohyber3.features.2')
-      ]
-    },
-    {
-      image: altijari,
-      title: t('properties.altijari.title'),
-      description: t('properties.altijari.description'),
-      features: [
-        t('properties.altijari.features.0'),
-        t('properties.altijari.features.1'),
-        t('properties.altijari.features.2')
-      ]
-    },
-    {
-      image: daralawad,
-      title: t('properties.daralawad.title'),
-      description: t('properties.daralawad.description'),
-      features: [
-        t('properties.daralawad.features.0'),
-        t('properties.daralawad.features.1'),
-        t('properties.daralawad.features.2')
-      ]
-    },
-    {
       image: building1,
-      title: t('properties.building1.title'),
-      description: t('properties.building1.description'),
+      title: t('properties.office.title'),
+      description: t('properties.office.description'),
       features: [
-        t('properties.building1.features.0'),
-        t('properties.building1.features.1'),
-        t('properties.building1.features.2')
+        t('properties.office.features.0'),
+        t('properties.office.features.1'),
+        t('properties.office.features.2')
       ]
     },
     {
-      image: building2,
-      title: t('properties.building2.title'),
-      description: t('properties.building2.description'),
+      image: two,
+      title: t('properties.previous.title'),
+      description: t('properties.previous.description'),
       features: [
-        t('properties.building2.features.0'),
-        t('properties.building2.features.1'),
-        t('properties.building2.features.2')
-      ]
-    },
-    {
-      image: building3,
-      title: t('properties.building3.title'),
-      description: t('properties.building3.description'),
-      features: [
-        t('properties.building3.features.0'),
-        t('properties.building3.features.1'),
-        t('properties.building3.features.2')
+        t('properties.previous.features.0'),
+        t('properties.previous.features.1'),
+        t('properties.previous.features.2')
       ]
     }
   ];

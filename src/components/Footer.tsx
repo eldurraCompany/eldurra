@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">
-              {language === 'ar' ? 'شركة الدرة العالمية' : 'WORLD DURRA CO'}
+              {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}
             </h3>
             <p className="text-gray-300 mb-6">
               {t('footer.description')}
@@ -49,21 +49,15 @@ const Footer: React.FC = () => {
             
             <div className="mt-6 space-y-3">
               <div>
-                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.company')}</h4>
+                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.companies')}</h4>
                 <p className="text-gray-300">
-                  {language === 'ar' ? 'شركة الدرة العالمية' : 'WORLD DURRA CO'}
-                </p>
-              </div>
-              <div>
-                <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.agent')}</h4>
-                <p className="text-gray-300">
-                  {language === 'ar' ? 'موڤنبيك' : 'MÖVENPICK'}
+                  {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}
                 </p>
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-2 text-amber-400">{t('footer.services')}</h4>
                 <p className="text-gray-300">
-                  {language === 'ar' ? 'إدارة وتأجير العقارات' : 'Property Management & Leasing'}
+                  {language === 'ar' ? 'إدارة وتأجير العقارات والاستثمار العقاري' : 'Property Management, Leasing & Real Estate Investment'}
                 </p>
               </div>
             </div>
@@ -72,8 +66,8 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('footer.contact')}</h4>
             <ul className="space-y-2 text-gray-300 text-sm">
-              <li>الهاتف: +965 6777 7177</li>
-              <li>info@hamedawada-int.com</li>
+              <li>الهاتف: +965 2226 9916</li>
+              <li>durraworld.co@gmail.com</li>
               <li>الكويت - المرقاب</li>
               <li>شارع خالد بن الوليد</li>
               <li>برج مزايا 1 - الدور 11</li>
@@ -83,7 +77,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 {language === 'ar' ? 'شركة الدرة العالمية' : 'WORLD DURRA CO'}. {t('footer.rights')}</p>
+          <p>&copy; 2024 {language === 'ar' ? 'شركة درة العالم' : 'WORLD DURRA CO'}. {t('footer.rights')}</p>
         </div>
       </div>
     </footer>

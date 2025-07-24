@@ -34,7 +34,7 @@ const Location: React.FC = () => {
                   {t('location.headquarters')}
                 </h3>
                 <p className="text-gray-300">
-                  Dubai, United Arab Emirates
+                  الكويت - أبراج مزايا
                 </p>
               </div>
               <div className="text-center">
